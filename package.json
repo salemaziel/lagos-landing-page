@@ -1,0 +1,42 @@
+{
+  "name": "gatsby-starter-lander",
+  "author": "Salem Aziel",
+  "repository": "https://github.com/salemaziel/gatsby-starter-lander",
+  "version": "1.0.0",
+  "license": "MIT",
+  "scripts": {
+    "develop": "gatsby develop",
+    "build": "gatsby build"
+  },
+  "dependencies": {
+    "babel-plugin-styled-components": "^1.12.0",
+    "gatsby": "^2.18.18",
+    "gatsby-plugin-manifest": "^2.12.0",
+    "gatsby-plugin-next-seo": "^1.7.0",
+    "gatsby-plugin-react-helmet": "^3.10.0",
+    "gatsby-plugin-robots-txt": "^1.5.5",
+    "gatsby-plugin-sitemap": "^2.12.0",
+    "gatsby-plugin-styled-components": "^3.10.0",
+    "gatsby-theme-codebushi": "1.0.0",
+    "prop-types": "^15.7.2",
+    "react": "17.0.1",
+    "react-anchor-link-smooth-scroll": "^1.0.12",
+    "react-dom": "17.0.1",
+    "react-helmet-async": "^1.0.7",
+    "react-icons": "^4.1.0",
+    "react-lazy-hero": "^2.0.0",
+    "react-reveal": "^1.2.2",
+    "styled-components": "^5.2.1"
+  },
+  "devDependencies": {
+    "eslint": "7.19.0",
+    "eslint-config-airbnb": "^18.0.1",
+    "eslint-config-prettier": "7.2.0",
+    "eslint-plugin-import": "^2.19.1",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-prettier": "^3.1.2",
+    "eslint-plugin-react": "^7.17.0",
+    "eslint-plugin-react-hooks": "4.2.0",
+    "prettier": "2.2.1"
+  }
+}
