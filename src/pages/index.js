@@ -9,7 +9,7 @@ import { GatsbySeo } from "gatsby-plugin-next-seo"
 
 
 const Index = () => (
-  <Layout hideHeader hideFooter> 
+  <Layout > 
    <GatsbySeo title="Request A Quote" />
     <LandingPage />
 

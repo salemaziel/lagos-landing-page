@@ -3,7 +3,6 @@ import React from "react"
 
 import Logo from "../../../images/Lagos-logo-shadow.png"
 
-import "./landing.css"
 
 import {
     FaFacebook,
@@ -20,7 +19,7 @@ const LandingPage = (props) => {
 
 
 
-        <div className="relative z-10 bg-transparent rounded-lg md:bg-gray-900 md:bg-opacity-25 animate-fade-in-fwd">
+        <div className="mx-auto bg-transparent rounded-lg sm:w-3/4 sm:px-16 md:bg-gray-400 md:bg-opacity-25 animate-fade-in-fwd">
           <div className="px-4 py-0 mx-auto my-5 md:py-8 sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-16 lg:px-8">
             <div className="flex flex-col items-center justify-between sm:items-start xl:flex-row">
               <div className="w-full max-w-xl mb-6 sm:mb-12 xl:mb-0 xl:px-16 xl:w-7/12">
@@ -29,10 +28,10 @@ const LandingPage = (props) => {
                         <div className="w-24 py-5 mx-auto lg:w-40 ">
                             <img src={Logo} alt="Lagos &amp; Lagos Cleaning Services" className="w-full" />
                         </div>
-                        <h1 className="text-4xl font-bold text-white">Lagos &amp; Lagos</h1>
+                        <h1 className="text-4xl font-bold text-white textShadow">Lagos &amp; Lagos</h1>
                     </div>
             </header>
-                <h2 className="max-w-lg mt-2 mb-4 font-sans text-2xl font-medium tracking-tight text-white lg:mt-6 sm:text-3xl sm:leading-none">
+                <h2 className="max-w-lg mt-2 mb-4 font-sans text-2xl font-medium tracking-tight text-center text-white lg:mt-6 sm:text-3xl sm:leading-none textShadow">
                 Full Service Commercial Cleaners
 
                 </h2>
